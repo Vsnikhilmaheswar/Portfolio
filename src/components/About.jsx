@@ -1,7 +1,7 @@
 import Aboutimg from '../assets/About.png';
 export default function About(){
 
-    return(<section className='flex flex-col md:flex-row bg-secondary'>
+    return(<section id='About' className='flex flex-col md:flex-row bg-secondary'>
 <div className='py-5 md:w-1/2' >
 
 <img className='' src={Aboutimg}/> </div>
