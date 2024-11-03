@@ -25,13 +25,13 @@ export default function Projects(){
     <img className='h-[220px] w-[500px]'  src="https://raw.githubusercontent.com/Vsnikhilmaheswar/SuperHero-API/main/imggif.gif
 "/>
     <div className='project-description'> 
-    <p className='text-center py-5'><b>SuperHero API <br></br> </b> <a href="https://github.com/Mareena03/DeepFake"><button className="  rounded-full w- px-2 py-2 "><VscGithubInverted size={25}/></button></a> <br></br>  Dive into the world of superheroes with our tool powered by the SuperHero API. Perfect for developers and fans alike!</p> </div>
+    <p className='text-center py-5'><b>SuperHero API <br></br> </b> <a href="https://github.com/Vsnikhilmaheswar/SuperHero-API"><button className="  rounded-full w- px-2 py-2 "><VscGithubInverted size={25}/></button></a> <br></br>  Dive into the world of superheroes with our tool powered by the SuperHero API. Perfect for developers and fans alike!</p> </div>
 </div>
 
 <div  className='relative'>
     <img className='h-[220px] w-[500px]'  src="https://raw.githubusercontent.com/Vsnikhilmaheswar/Street-Fighting-Game/main/ezgif.com-video-to-gif-converter%20(1).gif"/>
     <div className='project-description'> 
-    <p className='text-center py-5'><b>Street Fighting Game <br></br> </b>  <a href="https://github.com/Mareena03/DeepFake"><button className="  rounded-full w- px-2 py-2 "><VscGithubInverted size={25}/></button></a> <br></br>A simple, interactive street-fighting game built with JavaScript, CSS, and HTML, where players control Nikhil and Rahul. Each character has attack and heal options, and health points update dynamically with each action.</p> </div> 
+    <p className='text-center py-5'><b>Street Fighting Game <br></br> </b>  <a href="https://github.com/Vsnikhilmaheswar/Street-Fighting-Game"><button className="  rounded-full w- px-2 py-2 "><VscGithubInverted size={25}/></button></a> <br></br>A simple, interactive street-fighting game built with JavaScript, CSS, and HTML, where players control Nikhil and Rahul. Each character has attack and heal options, and health points update dynamically with each action.</p> </div> 
 
 </div>
    
