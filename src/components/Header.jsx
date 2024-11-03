@@ -9,11 +9,11 @@ const [toggleMenu,setToggleMenu] = useState(false);
 
     return(<> <header className='flex justify-between px-5 py-2 bg-primary bg-primary'>
 <a className="font-bold text-white py-3" href='#'> V S NIKHIL MAHESWAR</a>
-<nav className='hidden md:block'><ul className='flex text-white'> 
-   <li>  <a href='#'> <button type='button' className='text-bold  w-[70px] py-2 rounded-full' >Home</button> </a>    </li>
-   <li>  <a href='#About' className=''> <button type='button' className='text-bold  w-[70px] py-2 rounded-full' >About</button> </a>    </li>  
-   <li>  <a href='#Project'><button type='button' className='   text-bold  w-[70px] py-2 rounded-full' >Project</button></a> </li>
-<li>  <a href='#resume'><button type='button' className='text-bold  w-[70px] py-2 rounded-full ' >Contact</button></a> </li>
+<nav className='hidden md:block'><ul className=' flex text-white'> 
+   <li >  <a  href='#'> <button type='button' className='text-bold  w-[45px] py-2 rounded-full underline-hover  ' >Home</button> </a>    </li>
+   <li>  <a href='#About' className=''> <button type='button' className='text-bold  w-[45px] py-2 rounded-full underline-hover' >About</button> </a>    </li>  
+   <li>  <a href='#Project'><button type='button' className='   text-bold  w-[45px] py-2 rounded-full underline-hover' >Project</button></a> </li>
+<li>  <a href='#resume'><button type='button' className='text-bold  w-[45px] py-2 rounded-full underline-hover' >Contact</button></a> </li>
     </ul></nav>
 
 { toggleMenu &&  <nav className='py-5 block md:hidden'><ul onClick={()=>setToggleMenu(!toggleMenu)} className='flex flex-col text-black  mobile-nav '> 

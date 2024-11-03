@@ -35,3 +35,17 @@ header ul li{
 html{
     scroll-behavior: smooth;
 }
+
+
+.underline-hover::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2.5px;
+    background: currentColor;
+    transition: width 0.2s;
+}
+.underline-hover:hover::after {
+    width: 100%;
+    
+}

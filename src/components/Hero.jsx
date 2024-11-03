@@ -15,12 +15,10 @@ export default function Hero(){
         <p className='text-2xl'> Im a Full Stack Developer</p></h1>
       
         <div className='flex py-5 '> 
-       <a className='pr-5 hover:text-white' href = '#'><AiOutlineTwitter size={40 }/>
-</a>
-       <a className='pr-5 hover:text-white' href = '#'><AiFillFacebook size={40}/></a>
-       <a className='pr-5 hover:text-white' href = '#'><AiFillInstagram size={40}/></a>
-       <a className='pr-5 hover:text-white' href = '#'><AiOutlineGithub size={40}/></a>
-   
+     
+       <a className='pr-5 hover:text-white' href = 'https://www.instagram.com/themadnikki/'><AiFillInstagram size={40}/></a>
+       <a className='pr-5 hover:text-white' href = 'https://github.com/Vsnikhilmaheswar'><AiOutlineGithub size={40}/></a>
+       <a className='pr-5 hover:text-white' href = '#'><AiOutlineTwitter size={40 }/></a>
 </div>
         </div>  
    <img className=' md:w-1/3' src={Heroimg}/>
