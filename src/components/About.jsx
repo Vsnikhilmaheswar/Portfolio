@@ -1,4 +1,4 @@
-import Aboutimg from '../assets/About.png';
+import Aboutimg from '../assets/about.png';
 export default function About(){
 
     return(<section id='About' className='flex flex-col md:flex-row   bg-gradient-to-b from-blue-400'>
