@@ -1,20 +1,23 @@
 import { VscGithubInverted } from "react-icons/vsc";
-
+import mobilestore  from '../assets/Screenshot (83).png'
 export default function Projects(){
 
 
 
     
 
-    return( <section id='Project' className="flex flex-col py-20 px-5 text-white justify-center bg-primary"> 
+    return( <section id='Project' className="flex flex-col py-20 px-5 text-white justify-center bg-gradient-to-b from-blue-400 "> 
     <div className="w-full">
-    <div className="flex flex-col  px-15 py-5" > <h1 className="text-4xl font-bold border-b-4 w-[137px] border-[#2b2d77]">Projects</h1></div>
-    <p className='font-semibold'>These are some the projects  that,i have build using JavaScript,Nodejs,Html,Css</p>
+    <div className="flex flex-col  px-15 py-5" > <h1 className="text-4xl font-bold border-b-4 w-[137px] border-[#2b2d77] text-black">Projects</h1></div>
+    <p className='font-semibold text-black'>These are some the projects  that,i have build using JavaScript,Nodejs,Html,Css</p>
     <br/>
     </div>
 
     <div className = 'w-full  '>
 <div className='flex flex-col md:flex-row px-15 gap-5'>
+
+
+
 <div className='relative'> 
     <img  className='h-[220px] w-[500px]'  src="https://raw.githubusercontent.com/Mareena03/DeepFake/main/result%20upload.png"  />
     <div className='project-description'> 
@@ -22,10 +25,9 @@ export default function Projects(){
 </div>
 
 <div  className='relative'>  
-    <img className='h-[220px] w-[500px]'  src="https://raw.githubusercontent.com/Vsnikhilmaheswar/SuperHero-API/main/imggif.gif
-"/>
+    <img className='h-[220px] w-[500px]'  src={mobilestore}/>
     <div className='project-description'> 
-    <p className='text-center py-5'><b>SuperHero API <br></br> </b> <a href="https://github.com/Vsnikhilmaheswar/SuperHero-API"><button className="  rounded-full w- px-2 py-2 "><VscGithubInverted size={25}/></button></a> <br></br>  Dive into the world of superheroes with our tool powered by the SuperHero API. Perfect for developers and fans alike!</p> </div>
+    <p className='text-center py-5'><b>Mobile Store <br></br> </b> <a href=""><button className="  rounded-full w- px-2 py-2 "><VscGithubInverted size={25}/></button></a> <br></br> A modern mobile store website built using HTML, CSS, and Bootstrap, featuring a responsive design with sleek product displays, user-friendly navigation, and visually appealing layouts for showcasing the latest smartphones and accessories.</p> </div>
 </div>
 
 <div  className='relative'>

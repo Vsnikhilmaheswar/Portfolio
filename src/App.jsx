@@ -7,6 +7,7 @@ import './App.css'
 import Projects from './components/Projects.jsx'
 import Resume  from './components/resume.jsx'
 import Contact from './components/Contact.jsx'
+import Timeline from './components/Timeline.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
 <Header/>
     <Hero/>
     <About/>
+    <Timeline/>
     <Projects/>
      <Resume/>
 

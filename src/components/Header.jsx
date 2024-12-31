@@ -8,8 +8,8 @@ const [toggleMenu,setToggleMenu] = useState(false);
 
 
     return(<> <header className='flex justify-between px-5 py-2 bg-primary bg-primary'>
-<a className="font-bold text-white py-3" href='#'> V S NIKHIL MAHESWAR</a>
-<nav className='hidden md:block'><ul className=' flex text-white'> 
+<a className="font-bold text-black py-3" href='#'> V S NIKHIL MAHESWAR</a>
+<nav className='hidden md:block'><ul className=' flex text-black'> 
    <li >  <a  href='#'> <button type='button' className='text-bold  w-[45px] py-2 rounded-full underline-hover  ' >Home</button> </a>    </li>
    <li>  <a href='#About' className=''> <button type='button' className='text-bold  w-[45px] py-2 rounded-full underline-hover' >About</button> </a>    </li>  
    <li>  <a href='#Project'><button type='button' className='   text-bold  w-[45px] py-2 rounded-full underline-hover' >Project</button></a> </li>
